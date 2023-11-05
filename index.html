@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment StopWatch</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+
+<main>
+    <div class="main-container">
+    
+       <div class="stopWatch-container">
+        <div class="heading"><h1>STOP WATCH</h1></div>
+            <div class="stop-watch">
+                <span class="hour" id="hour">00h</span>
+                <span class="dot">:</span>
+                <span class="min" id="min">00m</span>
+                <span class="dot">:</span>
+                <span class="sec" id="sec">00s</span>
+                <span class="dot">:</span>
+                <span class="m-sec" id="m-sec">00ms</span>
+            </div>
+            <div class="buttons">
+                <button type="button" id="startDisable" onclick="start()" class="btn btn-success start">Start</button>
+                <button type="button" onclick="stop()" class="btn btn-danger stop">Stop</button>
+                <button type="button" onclick="reset()" class="btn btn-primary reset">Reset</button>
+                
+                
+            </div>
+       </div> 
+
+       <div class="timer-container">
+        <div class="heading"><h1>TIMER</h1></div>
+           <div class="timer">
+                <span class="timer-min" id="timer-min">15m</span>
+                <span class="timer-dot">:</span>
+                <span class="timer-sec" id="timer-sec">0s</span>
+                <span class="timer-dot">:</span>
+                <span class="timer-ms" id="timer-ms">0ms</span>
+            </div>
+           <div class="timer-buttons">
+                <button type="button" id="timerStartDisable" onclick="startTimer()" class="btn btn-success start">Start Timer</button>
+                <button type="button" onclick="stopTimer()" class="btn btn-danger stop">Stop Timer</button>
+                <button type="button" onclick="resetTimer()" class="btn btn-primary reset">Reset Timer</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</main>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+    
+</body>
+</html>

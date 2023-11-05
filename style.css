@@ -1,0 +1,243 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.heading{
+    width: 100%;
+    height: 50px;
+    background-color: #00000084;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+} 
+.heading h1{
+     
+
+    color: #ffffff84;
+    font-weight: 600;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    box-sizing: content-box;
+}
+.main-container{
+   width: 100%;
+   height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+    
+   
+
+}
+.stopWatch-container{
+    width:  95%;
+    height: 80vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+
+}
+.stop-watch{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff84;
+    border-radius: 5px;
+    
+}
+@media only screen and (max-width: 600px){
+.stop-watch{
+    width: 100%;
+}
+}
+.hour{
+    width: 100px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff84;
+    background-color: #00000084;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.min{
+    width: 100px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff84;
+    background-color: #00000084;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sec{
+    width: 100px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff84;
+    background-color: #00000084;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.m-sec{
+    width: 100px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff84;
+    background-color: #00000084;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media only screen and (max-width: 600px){
+.m-sec{
+    width: 25%
+}
+};
+
+
+    
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.buttons button{
+    margin: 10px;
+    width: 100px;
+}
+
+.dot{
+    font-size: 2rem;
+    background-color: #00000084;
+    width: 20px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff84;
+}
+
+
+
+/* ====================TIMER CSS=========================== */
+.timer-container{
+    width: 95%;
+   height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timer{
+    width: 40%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff84;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 600px){
+    .timer{
+        width: 100%;
+    }
+}
+.timer-min{
+    width: 100px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff84;
+    background-color: #00000084;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.timer-sec{
+    width: 100px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff84;
+    background-color: #00000084;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.timer-ms{
+    width: 100px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff84;
+    background-color: #00000084;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.timer-dot{
+    font-size: 2rem;
+    background-color: #00000084;
+    width: 20px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff84; 
+}
+.timer-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100px; */
+}
+.timer-buttons button{
+    margin: 10px;
+    width: 150px;
+}
+@media only screen and (max-width: 600px){
+    .timer-buttons{
+     width: 100%;
+    }
+}
+    
+
