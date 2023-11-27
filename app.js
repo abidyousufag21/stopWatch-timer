@@ -58,6 +58,8 @@ function reset(){
      getmin.innerHTML = min + "m ";
      getsec.innerHTML = sec + "s " ;
      getMiliSec.innerHTML = milisec + "ms ";
+
+     stop();
 }
 
 
